@@ -40,7 +40,11 @@ const currencyHandler=(event)=>{
       </Link>
         <ul>
         <Link to={'/'}><li>Home </li></Link>
+<<<<<<< HEAD
         <Link to={'/news'}><li>News </li></Link>
+=======
+        <li>News</li>
+>>>>>>> 4f44149fb8c8e88bd8d9c501b65ebb4960df52e8
         <li>Pricing</li>
         <li>Blog </li>
         </ul>
