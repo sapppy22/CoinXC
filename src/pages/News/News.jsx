@@ -41,7 +41,7 @@ const News=()=>{
                     <a href={article.link} target="_blank">
                         <h3 className="news-heading">{article.title}</h3>
                     </a>
-                    <p className="news-body">{article.body.slice(0,120)}....</p>
+                    <p className="news-body">{article.body.slice(0,200)}....</p>
                     <p className="news-source">Source:{article.source}</p>
                     </div>
                 ))}

@@ -1,0 +1,9 @@
+.Plans{
+ width:10;
+ height:20px;
+ border: 1px solid #fff
+}
+
+.plan-grid{
+    display:flex
+}

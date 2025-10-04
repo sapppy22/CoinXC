@@ -8,12 +8,12 @@ const Home = () => {
   const [displayCoin, setDisplayCoin] = useState([]);
   const [search, setSearch] = useState("");
 
-  // Update coins when context changes
+
   useEffect(() => {
     setDisplayCoin(allCoin);
   }, [allCoin]);
 
-  // Handle search
+
   const handleSearch = (e) => {
     e.preventDefault();
     if (search.trim() === "") {
